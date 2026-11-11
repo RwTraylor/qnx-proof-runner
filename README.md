@@ -34,7 +34,9 @@ nothing syncs from local state. So the ONLY remaining blocker for
 Gate 1 is that one credential sync (Ricket's tap); no credential was
 attempted by the machine. Preflight now reads 4 passed / 1 missing
 (SDP only). Proof-runner report from this state:
-`runs/gate1-2026-11-10/report.json` (honest BLOCKED, exit 3). The
+`runs/gate1-2026-11-10/report.json` in the local working copy (a
+local run artifact, not tracked in this repository; honest BLOCKED,
+exit 3). The
 sample application's source is complete.
 
 ## Layout
